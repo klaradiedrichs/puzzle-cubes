@@ -1,6 +1,5 @@
-<svg fill="#000000" width="70px" height="70px" viewBox="-7 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-<g id="SVGRepo_iconCarrier"> 
-<path d="M0 6.688v18.906c0 0.344 0.156 0.625 0.469 0.813 0.125 0.094 0.344 0.125 0.5 0.125s0.281-0.031 0.438-0.125l16.375-9.438c0.313-0.219 0.5-0.5 0.5-0.844 0-0.313-0.188-0.594-0.5-0.813l-16.375-9.438c-0.563-0.406-1.406 0.094-1.406 0.813z"></path> 
-</g>
+<svg width="106" height="106" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="56.19" cy="58.19" r="45.19" fill="#000"/>
+    <circle cx="53" cy="53" r="43.69" fill="#F0AF00" stroke="#000" stroke-width="3"/>
+    <path d="M85.916 53 36.542 81.506V24.494L85.916 53Z" fill="#000"/>
 </svg>

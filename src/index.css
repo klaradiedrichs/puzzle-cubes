@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "martin";
+    src: url("/fonts/martin-regular-webfont.woff") format("woff"),
+      url("/fonts/martin-regular-webfont.woff2") format("woff2");
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "sourceSansPro";
+    src: url("/fonts/sourcesanspro-regular-webfont.woff") format("woff"),
+      url("/fonts/sourcesanspro-regular-webfont.woff2") format("woff2");
+  }
+}
+
+@layer components {
+  .popup-space {
+    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center z-10;
+  }
+
+  .popup-window {
+    @apply text-black bg-white w-4/5 h-3/4 border-8 border-black;
+  }
+
+  .popup-cancel {
+    @apply pt-12 pr-12 pb-8 flex justify-end;
+  }
+
+  .popup-text {
+    @apply flex flex-col justify-center text-3xl px-48 gap-8;
+  }
+
+  .popup-buttonposition {
+    @apply flex justify-between flex-wrap gap-y-4;
+  }
+
+  .popup-button {
+    @apply border-[3px] border-black shadow-[3px_6px_0_rgba(0,0,0,1)] rounded-full py-1;
+  }
+
+  .header-text {
+    @apply font-martin tracking-wide;
+  }
+}
